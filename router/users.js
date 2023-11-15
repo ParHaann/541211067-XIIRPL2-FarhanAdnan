@@ -15,3 +15,5 @@ router.get('/users', usercontroller.index)
   router.delete('/user/:id',usercontroller.delete)
 
   module.exports = router
+
+  
